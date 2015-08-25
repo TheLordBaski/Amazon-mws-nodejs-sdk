@@ -1,4 +1,4 @@
-AMAZON MWS NODEJS SDK
+##AMAZON MWS NODEJS SDK
 
 =====================
 
@@ -12,9 +12,30 @@ A small SDK library providing utility to use Amazon MWS API.
 
     var mws = require("amazon-mws-nodejs");
     var config = require("./config.json");
-    mws.product.GetCompetitivePricingForASIN(config, MarketPlaceId, AsinList, function(err, result){
+
+    mws.product.GetCompetitivePricingForASIN(config, OptParams, function(err, result){
         /* Do everything you want with your result */
     });
+
+    mws.products.GetServiceStatus(config,{}, false, function(err, data){
+        console.log(data);
+    });
+
+    mws.sellers.GetServiceStatus(config,{}, true, function(err, data){
+        console.log(data);
+    });
+
+
+
+## Config look-like
+
+    {
+      "SellerId" : "xxx",
+      "DeveloperAccountNumber" : "xxx",
+      "AWSAccessKeyId" : "xxx",
+      "SecretKey" : "xxx",
+      "MWSAuthorizationToken" : "xxx"
+    }
 
 ## Contributors
 

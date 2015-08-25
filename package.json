@@ -7,7 +7,7 @@
     "post",
     "nodejs"
   ],
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "Jakub Gabčo <jakub.gabco@gmail.com>",
   "repository": {
     "type": "git",
@@ -27,8 +27,9 @@
     "crypto": "0.0.3",
     "https": "1.0.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
   }
 }

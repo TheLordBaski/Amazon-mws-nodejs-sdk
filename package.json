@@ -22,7 +22,10 @@
   },
   "main": "index.js",
   "dependencies": {
-    "request": ">=2.5.0"
+    "request": ">=2.5.0",
+    "xml2js": ">=0.4.10",
+    "crypto": "0.0.3",
+    "https": "1.0.0"
   },
   "scripts": {
   },

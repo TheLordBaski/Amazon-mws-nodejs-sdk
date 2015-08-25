@@ -1,8 +1,12 @@
-var request = require('request');
-request
-    .get('http://google.com/img.png')
-    .on('response', function(response) {
-        console.log(response.statusCode) // 200
-        console.log(response.headers['content-type']) // 'image/png'
-    })
-    .pipe(request.put('http://mysite.com/img.png'))
+var mws = require("./lib/index.js");
+var config = require("./config.json");
+
+
+mws.products.GetServiceStatus(config,{}, false, function(err, data){
+    console.log(data);
+});
+
+mws.sellers.GetServiceStatus(config,{}, true, function(err, data){
+    console.log(data);
+});
+

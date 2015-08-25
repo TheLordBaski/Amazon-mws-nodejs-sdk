@@ -1,0 +1,31 @@
+{
+  "name": "amazon-mws-nodejs",
+  "description": "Amazon MWS nodeJS SDK.",
+  "tags": [
+    "mws",
+    "http",
+    "post",
+    "nodejs"
+  ],
+  "version": "0.0.1",
+  "author": "Jakub Gabčo <jakub.gabco@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheLordBaski/Amazon-mws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheLordBaski/Amazon-mws/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "request": ">=2.5.0"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}

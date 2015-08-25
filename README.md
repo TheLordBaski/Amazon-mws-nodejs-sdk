@@ -13,7 +13,7 @@ A small SDK library providing utility to use Amazon MWS API.
     var mws = require("amazon-mws-nodejs");
     var config = require("./config.json");
 
-    mws.product.GetCompetitivePricingForASIN(config, OptParams, function(err, result){
+    mws.products.GetCompetitivePricingForASIN(config, OptParams, function(err, result){
         /* Do everything you want with your result */
     });
 

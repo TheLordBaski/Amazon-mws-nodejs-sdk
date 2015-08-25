@@ -28,3 +28,6 @@ node_modules
 
 # IDE project settings
 .idea
+
+# Ignore not-public config
+/config.json

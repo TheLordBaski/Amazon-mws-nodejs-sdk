@@ -1,6 +1,6 @@
-##AMAZON MWS NODEJS SDK
+#AMAZON MWS NODEJS SDK
 
-=====================
+
 
 A small SDK library providing utility to use Amazon MWS API.
 
@@ -17,11 +17,11 @@ A small SDK library providing utility to use Amazon MWS API.
         /* Do everything you want with your result */
     });
 
-    mws.products.GetServiceStatus(config,{}, false, function(err, data){
+    mws.products.GetServiceStatus(config, false, function(err, data){
         console.log(data);
     });
 
-    mws.sellers.GetServiceStatus(config,{}, true, function(err, data){
+    mws.sellers.GetServiceStatus(config, true, function(err, data){
         console.log(data);
     });
 

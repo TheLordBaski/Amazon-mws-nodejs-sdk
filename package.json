@@ -1,5 +1,5 @@
 {
-  "name": "amazon-mws-nodejs",
+  "name": "mws-nodejs",
   "description": "Amazon MWS nodeJS SDK.",
   "tags": [
     "mws",

@@ -6,14 +6,14 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Installation
 
-    npm install amazon-mws-nodejs --save
+    npm install mws-nodejs --save
 
 ## Usage
 
     var mws = require("amazon-mws-nodejs");
     var config = require("./config.json");
 
-    mws.products.GetCompetitivePricingForASIN(config, OptParams, function(err, result){
+    mws.products.GetCompetitivePricingForASIN(config, true, AditionalParameters, function(err, result){
         /* Do everything you want with your result */
     });
 
@@ -44,4 +44,4 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Product Version
 
-    0.0.0
+    0.1.0

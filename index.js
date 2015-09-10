@@ -10,9 +10,9 @@ var config = require("./config.json");
 
 mws.products.ListMatchingProducts(config, {
     MarketplaceId: 'APJ6JRA9NG5V4',
-    Query: 'a',
+    Query: 'Ed Sheeran',
     QueryContextId: 'Music'
-}, function (err, data) {
+},true, function (err, data) {
     console.log("ListMatchingProducts:");
     console.log(data);
     console.log("\n");

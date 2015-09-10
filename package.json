@@ -7,7 +7,7 @@
     "post",
     "nodejs"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jakub Gabčo <jakub.gabco@gmail.com>",
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   "main": "index.js",
   "dependencies": {
     "crypto": "0.0.3",
-    "request": ">=2.5.0",
     "underscore": "^1.8.3",
     "xml2js": "^0.4.10"
   },

@@ -83,4 +83,4 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Product Version
 
-    0.2.2
+    0.2.3

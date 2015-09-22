@@ -8,15 +8,24 @@ var config = require("./config.json");
 //});
 
 
-mws.products.ListMatchingProducts(config, {
+//mws.products.ListMatchingProducts(config, {
+//    MarketplaceId: 'APJ6JRA9NG5V4',
+//    Query: 'Ed Sheeran',
+//    QueryContextId: 'Music'
+//},false, function (data) {
+//    console.log("ListMatchingProducts:");
+//    console.log(data);
+//    console.log("\n");
+//});
+
+mws.products.GetCompetitivePricingForASIN(config,{
     MarketplaceId: 'APJ6JRA9NG5V4',
-    Query: 'Ed Sheeran',
-    QueryContextId: 'Music'
-},false, function (data) {
-    console.log("ListMatchingProducts:");
+    ASINList: {"ASINList.ASIN.1": "B006N7COWQ"}
+}, true, function(err, data){
+
     console.log(data);
-    console.log("\n");
 });
+
 
 //mws.products.GetMatchingProduct(config, {
 //        MarketplaceId: 'APJ6JRA9NG5V4',

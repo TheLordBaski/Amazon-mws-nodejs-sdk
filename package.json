@@ -7,7 +7,7 @@
     "post",
     "nodejs"
   ],
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "Jakub Gabčo <jakub.gabco@gmail.com>",
   "repository": {
     "type": "git",

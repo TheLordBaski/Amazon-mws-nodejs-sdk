@@ -7,8 +7,8 @@
     "post",
     "nodejs"
   ],
-  "version": "0.2.5",
-  "author": "Jakub Gabčo <jakub.gabco@gmail.com>",
+  "version": "0.3.0",
+  "author": "Jakub Gabčo <jakub.gabco@hotmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/TheLordBaski/Amazon-mws.git"

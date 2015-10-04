@@ -12,12 +12,20 @@ var config = require("./config.json");
 //    MarketplaceId: 'APJ6JRA9NG5V4',
 //    Query: 'Ed Sheeran',
 //    QueryContextId: 'Music'
-//},false, function (data) {
+//}, true, function (err, data) {
 //    console.log("ListMatchingProducts:");
 //    console.log(data);
 //    console.log("\n");
 //});
-
+mws.products.GetMyPriceForASIN(config, {
+	MarketplaceId: 'APJ6JRA9NG5V4',
+	ASINList: {"ASINList.ASIN.1":"B00MHNX4WO"}
+}, true, function(err,data){
+	if(err)
+throw err;
+else
+console.log(data);
+});
 //mws.products.GetCompetitivePricingForASIN(config,{
 //    MarketplaceId: 'APJ6JRA9NG5V4',
 //    ASINList: {"ASINList.ASIN.1": "B006N7COWQ"}
@@ -26,20 +34,20 @@ var config = require("./config.json");
 //    console.log(data);
 //});
 
-mws.products.GetLowestPricedOffersForASIN(config, {
-    MarketplaceId: 'A1F83G8C2ARO7P',
-    ItemCondition : "New",
-    ASIN: "B00MHNX4WO"
-},true, function (err, data) {
-    if(err){
-        console.log("Error");
-        console.log(err);
-        return;
-    }
-    console.log("ListMatchingProducts:");
-    console.log(data);
-    console.log("\n");
-});
+//mws.products.GetLowestPricedOffersForASIN(config, {
+//    MarketplaceId: 'A1F83G8C2ARO7P',
+//    ItemCondition : "New",
+//    ASIN: "B00MHNX4WO"
+//},true, function (err, data) {
+//    if(err){
+//        console.log("Error");
+//        console.log(err);
+//        return;
+//    }
+//    console.log("ListMatchingProducts:");
+//    console.log(data);
+//    console.log("\n");
+//});
 
 //mws.products.GetMatchingProduct(config, {
 //        MarketplaceId: 'APJ6JRA9NG5V4',

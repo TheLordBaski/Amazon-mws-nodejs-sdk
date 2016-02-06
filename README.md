@@ -10,7 +10,7 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Usage
 
-    var mws = require("amazon-mws-nodejs").mws;
+    var mws = require("mws-nodejs").mws;
     var config = require("./config.json");
 
     

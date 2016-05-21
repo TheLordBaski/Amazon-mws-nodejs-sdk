@@ -79,8 +79,11 @@ A small SDK library providing utility to use Amazon MWS API.
       "DeveloperAccountNumber" : "xxx",
       "AWSAccessKeyId" : "xxx",
       "SecretKey" : "xxx",
-      "MWSAuthorizationToken" : "xxx"
+      "MWSAuthorizationToken" : "xxx",
+      "AmazonServicesURL": "mws.amazonservices.com"
     }
+
+AmazonServicesURL endpoints can be refers to http://docs.developer.amazonservices.com/en_CA/dev_guide/DG_Endpoints.html
 
 ## Contributors
 

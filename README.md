@@ -1,5 +1,5 @@
 #AMAZON MWS NODEJS SDK
-
+#OUT OF DEVELOPMENT - CONTACT ME FOR MORE INFO
 
 
 A small SDK library providing utility to use Amazon MWS API.

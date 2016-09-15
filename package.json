@@ -24,7 +24,8 @@
   "dependencies": {
     "crypto": "0.0.3",
     "underscore": "^1.8.3",
-    "pixl-xml": "^1.0.4"
+    "pixl-xml": "^1.0.4",
+    "csv": "*"
   },
   "scripts": {},
   "devDependencies": {

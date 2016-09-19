@@ -1,5 +1,4 @@
 var mws = require("./lib/index.js");
-var config = require("./config.json");
 
 //mws.products.GetServiceStatus(config, true, function (data) {
 //    console.log("GetServiceStatus:");
@@ -26,7 +25,7 @@ var config = require("./config.json");
 //    console.log(data);
 //});
 
-mws.products.GetLowestPricedOffersForASIN(config, {
+/*mws.products.GetLowestPricedOffersForASIN(config, {
     MarketplaceId: 'A1F83G8C2ARO7P',
     ItemCondition : "New",
     ASIN: "B00MHNX4WO"
@@ -39,7 +38,7 @@ mws.products.GetLowestPricedOffersForASIN(config, {
     console.log("ListMatchingProducts:");
     console.log(data);
     console.log("\n");
-});
+});*/
 
 //mws.products.GetMatchingProduct(config, {
 //        MarketplaceId: 'APJ6JRA9NG5V4',
@@ -74,3 +73,16 @@ mws.products.GetLowestPricedOffersForASIN(config, {
 //    console.log("\n");
 //
 //});
+
+mws.recommendations.ListRecommendations(config, {
+    MarketplaceId: 'A1F83G8C2ARO7P',
+}, false, function (err, data) {
+    if(err){
+        console.log("Error");
+        console.log(err);
+        return;
+    }
+    console.log("ListMatchingProducts:");
+    console.log(data);
+    console.log("\n");
+});

@@ -7,7 +7,7 @@
     "post",
     "nodejs"
   ],
-  "version": "0.3.3",
+  "version": "0.3.2",
   "author": "Jakub Gabčo <jakub.gabco@hotmail.com>",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "crypto": "0.0.3",
     "underscore": "^1.8.3",
     "pixl-xml": "^1.0.4",
-    "csv": "^1.1.7"
+    "csv": "^1.1.0"
   },
   "scripts": {},
   "devDependencies": {

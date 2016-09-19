@@ -1,5 +1,4 @@
 var mws = require("./lib/index.js");
-var config = require("./config.json");
 
 //mws.products.GetServiceStatus(config, true, function (data) {
 //    console.log("GetServiceStatus:");
@@ -49,6 +48,7 @@ console.log(data);
 //    console.log("\n");
 //});
 
+
 //mws.products.GetMatchingProduct(config, {
 //        MarketplaceId: 'APJ6JRA9NG5V4',
 //        ASINList: {
@@ -82,3 +82,16 @@ console.log(data);
 //    console.log("\n");
 //
 //});
+
+mws.recommendations.ListRecommendations(config, {
+    MarketplaceId: 'A1F83G8C2ARO7P',
+}, false, function (err, data) {
+    if(err){
+        console.log("Error");
+        console.log(err);
+        return;
+    }
+    console.log("ListMatchingProducts:");
+    console.log(data);
+    console.log("\n");
+});

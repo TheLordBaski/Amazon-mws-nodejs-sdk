@@ -1,5 +1,5 @@
 #AMAZON MWS NODEJS SDK
-
+#OUT OF DEVELOPMENT - CONTACT ME FOR MORE INFO
 
 
 A small SDK library providing utility to use Amazon MWS API.
@@ -10,7 +10,7 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Usage
 
-    var mws = require("amazon-mws-nodejs").mws;
+    var mws = require("mws-nodejs").mws;
     var config = require("./config.json");
 
     
@@ -79,8 +79,11 @@ A small SDK library providing utility to use Amazon MWS API.
       "DeveloperAccountNumber" : "xxx",
       "AWSAccessKeyId" : "xxx",
       "SecretKey" : "xxx",
-      "MWSAuthorizationToken" : "xxx"
+      "MWSAuthorizationToken" : "xxx",
+      "AmazonServicesURL": "mws.amazonservices.com"
     }
+
+AmazonServicesURL endpoints can be refers to http://docs.developer.amazonservices.com/en_CA/dev_guide/DG_Endpoints.html
 
 ## Contributors
 
@@ -89,4 +92,4 @@ A small SDK library providing utility to use Amazon MWS API.
 
 ## Product Version
 
-    0.3.2
+    0.3.3

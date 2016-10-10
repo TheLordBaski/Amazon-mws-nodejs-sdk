@@ -1,104 +1,35 @@
 {
-  "_args": [
-    [
-      "mws-nodejs",
-      "/Users/alessio/Progetti/graffiti/spike-crawler"
-    ],
-    [
-      "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
-      "/Users/alessio/Progetti/graffiti/spike-crawler"
-    ]
-  ],
-  "_from": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
-  "_id": "mws-nodejs@0.4.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/mws-nodejs",
-  "_nodeVersion": "4.5.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/mws-nodejs-0.4.0.tgz_1474295269591_0.465622620889917"
-  },
-  "_npmUser": {
-    "email": "jakub.gabco@gmail.com",
-    "name": "thelordbaski"
-  },
-  "_npmVersion": "3.10.7",
-  "_phantomChildren": {},
-  "_requested": {
-    "hosted": {
-      "directUrl": "https://raw.githubusercontent.com/gorlux/Amazon-mws-nodejs-sdk/master/package.json",
-      "gitUrl": "git://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
-      "httpsUrl": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
-      "shortcut": "github:gorlux/Amazon-mws-nodejs-sdk",
-      "ssh": "git@github.com:gorlux/Amazon-mws-nodejs-sdk.git",
-      "sshUrl": "git+ssh://git@github.com/gorlux/Amazon-mws-nodejs-sdk.git",
-      "type": "github"
-    },
-    "name": null,
-    "raw": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
-    "rawSpec": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
-    "scope": null,
-    "spec": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
-    "type": "hosted"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git#a0b936b9414ffa25722992b699bac2d17b9223d2",
-  "_shasum": "d56c9453c2a19a9d747a254daf8b06732dc1772a",
-  "_shrinkwrap": null,
-  "_spec": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
-  "_where": "/Users/alessio/Progetti/graffiti/spike-crawler",
-  "author": {
-    "email": "jakub.gabco@hotmail.com",
-    "name": "Jakub Gabčo"
-  },
-  "bugs": {
-    "url": "https://github.com/TheLordBaski/Amazon-mws/issues"
-  },
-  "dependencies": {
-    "crypto": "0.0.3",
-    "csv": "^1.1.0",
-    "pixl-xml": "^1.0.4",
-    "underscore": "^1.8.3"
-  },
-  "description": "Amazon MWS nodeJS SDK.",
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.2.5"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "203bb1df49e2f5fe6ec22505dc138c517b62a312",
-    "tarball": "https://registry.npmjs.org/mws-nodejs/-/mws-nodejs-0.4.0.tgz"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "gitHead": "fe088b71965fc8dcd2ebd4feb0dc902b043beabe",
-  "homepage": "https://github.com/TheLordBaski/Amazon-mws#readme",
-  "license": "Apache-2.0",
-  "main": "mws-nodejs.js",
-  "maintainers": [
-    {
-      "email": "jakub.gabco@gmail.com",
-      "name": "thelordbaski"
-    }
-  ],
   "name": "mws-nodejs",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheLordBaski/Amazon-mws.git"
-  },
-  "scripts": {},
+  "description": "Amazon MWS nodeJS SDK.",
   "tags": [
     "mws",
     "http",
     "post",
     "nodejs"
   ],
-  "version": "0.4.0"
+  "version": "0.4.0",
+  "author": "Jakub Gabčo <jakub.gabco@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheLordBaski/Amazon-mws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheLordBaski/Amazon-mws/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "mws-nodejs.js",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "underscore": "^1.8.3",
+    "pixl-xml": "^1.0.4",
+    "csv": "^1.1.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
 }

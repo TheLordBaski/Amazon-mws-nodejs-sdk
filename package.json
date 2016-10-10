@@ -3,9 +3,13 @@
     [
       "mws-nodejs",
       "/Users/alessio/Progetti/graffiti/spike-crawler"
+    ],
+    [
+      "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
+      "/Users/alessio/Progetti/graffiti/spike-crawler"
     ]
   ],
-  "_from": "mws-nodejs@latest",
+  "_from": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
   "_id": "mws-nodejs@0.4.0",
   "_inCache": true,
   "_installable": true,
@@ -22,20 +26,29 @@
   "_npmVersion": "3.10.7",
   "_phantomChildren": {},
   "_requested": {
-    "name": "mws-nodejs",
-    "raw": "mws-nodejs",
-    "rawSpec": "",
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/gorlux/Amazon-mws-nodejs-sdk/master/package.json",
+      "gitUrl": "git://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
+      "httpsUrl": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
+      "shortcut": "github:gorlux/Amazon-mws-nodejs-sdk",
+      "ssh": "git@github.com:gorlux/Amazon-mws-nodejs-sdk.git",
+      "sshUrl": "git+ssh://git@github.com/gorlux/Amazon-mws-nodejs-sdk.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
+    "rawSpec": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
     "scope": null,
-    "spec": "latest",
-    "type": "tag"
+    "spec": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git",
+    "type": "hosted"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mws-nodejs/-/mws-nodejs-0.4.0.tgz",
-  "_shasum": "203bb1df49e2f5fe6ec22505dc138c517b62a312",
+  "_resolved": "git+https://github.com/gorlux/Amazon-mws-nodejs-sdk.git#a0b936b9414ffa25722992b699bac2d17b9223d2",
+  "_shasum": "d56c9453c2a19a9d747a254daf8b06732dc1772a",
   "_shrinkwrap": null,
-  "_spec": "mws-nodejs",
+  "_spec": "https://github.com/gorlux/Amazon-mws-nodejs-sdk",
   "_where": "/Users/alessio/Progetti/graffiti/spike-crawler",
   "author": {
     "email": "jakub.gabco@hotmail.com",

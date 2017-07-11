@@ -95,3 +95,17 @@ mws.recommendations.ListRecommendations(config, {
     console.log(data);
     console.log("\n");
 });
+
+mws.FulfillmentInventory.GetServiceStatus(config, true, function (err, data) {
+    console.log("Inventory GetServiceStatus:");
+    console.log(data);
+    console.log("\n");
+});
+
+mws.FulfillmentInventory.ListInventorySupply(config, {
+    QueryStartDateTime: "2017-07-04T06:00:00Z"
+    }, true, function (err, data) {
+    console.log("ListInventorySupply:");
+    console.log(data);
+    console.log("\n");
+});
